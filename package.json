@@ -1,7 +1,15 @@
 {
   "name": "react-query-read",
+  "author": "Igor Adrov",
   "version": "0.0.2",
-  "repository": "https://github.com/nucleartux/react-query-read",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nucleartux/react-query-read.git"
+  },
+  "keywords": [
+    "react",
+    "react-query"
+  ],
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
