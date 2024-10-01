@@ -1,5 +1,7 @@
 # React Query Read 📖
 
+> ## ⚠️ This library is now obsolete, as similar functionality [has been implemented](https://github.com/TanStack/query/pull/7988) in React Query itself.
+
 Most convenient way to use React Query.
 
 RQR is a tiny wrapper around [React Query](https://tanstack.com/query/latest) that adds a special `read` function. In contrast with the standard `data` field, the `read` function always returns already fetched data and cannot be undefined. Under the hood, it uses [Suspense](https://react.dev/reference/react/Suspense) to achieve the best developer experience.
